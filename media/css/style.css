@@ -1,0 +1,86 @@
+.header {
+    height: 200px;
+    background: url(../img/fon.jpg);
+}
+
+.logo-wrapper {
+    float: left;
+    width: 200px;
+}
+
+.logo {
+    width: 340px;
+    height: 145px;
+}
+
+.site-name {
+    float: right;
+}
+
+.top-menu {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.autorization-menu{
+    color: #419641;
+}
+
+.top-menu a {
+    display: block;
+    flex: 1;
+    font-size: 14px;
+    color: #419641;
+    background: #eea236;
+    padding: 3px;
+    text-align: center;
+    border-right: white 1px solid;
+    text-decoration: none;
+}
+
+.top-menu a:hover {
+    background: #419641;
+    color: #000000;
+    text-shadow: 1px 1px 2px green;
+}
+
+.conteiner {
+    background: white;
+}
+
+.btn {
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    .header {
+        height: 100px;
+    }
+
+    .menutop {
+        display: block;
+    }
+}
+
+.main-block {
+    column-count: 2;
+    column-rule: 1px solid #bbb;
+    column-gap: 2em;
+    -moz-column-count: 2;
+    -moz-column-rule: 1px solid #bbb;
+    -moz-column-gap: 2em;
+}
+
+.footer {
+    padding: 20px;
+    background: #ccc;
+}
